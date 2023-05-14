@@ -9,3 +9,5 @@ Known issues:
 1. The format of displayed data can be broken with too long names or brand
 
 Changelog
+2023-05-14: Added error message upon selecting numbers greater than numbers on menu selection
+2023-05-12: First version
