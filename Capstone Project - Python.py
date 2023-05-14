@@ -148,7 +148,6 @@ while i < 1:
                             print('Yes, this following data does exist in Stock list :',result[1])
                             result.clear()
                             printlist()
-                            searcher()
                         else:
                             print('No, this following data does not exist in Stock list :',result[1])
                             result.clear()
@@ -164,6 +163,8 @@ while i < 1:
                             result.clear()
                     elif userPutSub1 == 3:
                         break
+                    else:
+                        print('!-- Wrong input, no submenu selection with typed number please try again --!')
             elif userPutMain == 2:
                 # Create submenu
                 subB = 0
@@ -183,8 +184,10 @@ while i < 1:
                             addItem()
                             print('Current Stock List below :')
                             printlist()
-                    else:
+                    elif userPutSub2 == 2:
                         break
+                    else:
+                        print('!-- Wrong input, no submenu selection with typed number please try again --!')
             elif userPutMain == 3:
                 # Delete submenu
                 subC = 0
@@ -201,8 +204,10 @@ while i < 1:
                         else:
                             print('No, this following data does not exist in Stock list :',result[1])
                             result.clear()
-                    else:
+                    elif userPutSub3 == 2:
                         break
+                    else:
+                        print('!-- Wrong input, no submenu selection with typed number please try again --!')
 
             elif userPutMain == 4:
                 # Update submenu
@@ -220,9 +225,13 @@ while i < 1:
                         else:
                             print('No, this following data does not exist in Stock list :',result[1])
                             result.clear()
-                    else:
+                    elif userPutSub4 == 2:
                         break
+                    else:
+                        print('!-- Wrong input, no submenu selection with typed number please try again --!')
             elif userPutMain == 5:
                 break
+            else:
+                print('!-- Wrong input, no menu selection with typed number please try again --!')
         except ValueError:
             print("--------------------------!!--------------------------\n Please do not type letters into menu selection field \n--------------------------!!--------------------------")
