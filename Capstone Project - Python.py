@@ -33,10 +33,9 @@ def addItem():
     if userPrompt ==  'Y' or userPrompt == 'y':
         existStock.append(newItem)
         print('Item successfully saved into Stock list')
-        newItem.clear()
     elif userPrompt == 'N' or userPrompt == 'n':
         print('No change saved into system')
-        newItem.clear()
+
 
 
 # Delete function declaration
