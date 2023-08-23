@@ -1,5 +1,6 @@
 # PCP-Python
 Purwadhika Capstone Project for Python
+----------------------------------------------------------------------------------------------------------------------------------------
 
 This is Python program made to fulfill the requirements from Purwadhika.
 In short, the program are based on real world cases such as warehouse program, student grade data, sales data, etc.
@@ -11,5 +12,6 @@ Known issues:
 3. Overall menu can be made more readable by using match switch (requires python 3.10)
 
 Changelog
-2023-05-14: Added error message upon selecting numbers greater than numbers on menu selection
-2023-05-12: First version
+3. 2023-08-23: Formatting update
+2. 2023-05-14: Added error message upon selecting numbers greater than numbers on menu selection
+1. 2023-05-12: First version
